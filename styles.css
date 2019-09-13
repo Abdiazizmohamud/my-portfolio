@@ -1,0 +1,24 @@
+li{
+  display:inline;
+  margin-left: 16px;
+}
+ul{
+  float:right;
+}
+body{
+  background-image: url("images/images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  text-align: center;
+  color:  white;
+  font-size: 30px;
+  font-style: italic;
+}
+img{
+  filter: blur(50px);
+}
+.menu{
+  padding-left: 20%
+}
