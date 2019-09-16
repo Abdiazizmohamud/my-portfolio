@@ -2,6 +2,15 @@ li{
   display:inline;
   margin-left: 16px;
 }
+li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: verdana;
+  font-weight: bold;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
 ul{
   float:right;
 }
@@ -10,15 +19,45 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#nav{
+  overflow: hidden;
+  position:sticky;
+ color: inherit;
+
+}
 p{
   text-align: center;
   color:  white;
-  font-size: 30px;
+  font-size: 50px;
   font-style: italic;
 }
 img{
   filter: blur(50px);
 }
-.menu{
-  padding-left: 20%
+
+li a:hover{
+  background-color: white;
+  color: black;
+  width: 100%;
+
+}
+.content{
+  position: absolute;
+  width: 900px;
+  height: 700px;
+  background-color: white;
+  bottom: 0%;
+  left: 0%;
+  right: 15%;
+  top: 100%;
+}
+.Hobbies{
+  display: grid;
+  margin-right: 0px;
+
+}
+.contacts{
+  display: grid;
+  margin-right: 0px;
+
 }
